@@ -9,7 +9,7 @@ async function increment(previousState: number) {
 export const StatefulForm: FC = () => {
   const [state, formAction] = useActionState(increment, 0);
   return (
-    <form>
+    <form className="flex flex-col gap-3 items-center">
       {state}
       <button formAction={formAction}>Increment</button>
     </form>
