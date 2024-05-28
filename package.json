@@ -6,7 +6,8 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "branch": "git branch react-compiler"
   },
   "dependencies": {
     "next": "15.0.0-rc.0",
